@@ -20,7 +20,7 @@ def button_add(): # function button_add with no argument
     global f_num # global variable
     global math # global variables
     math = "addition" # math variable is assigned to the string addition
-    f_num = float(first_number) # assigns integer value of first_number to f_num (global variable)
+    f_num = float(first_number) # assigns float value of first_number to f_num (global variable)
     e.delete(0, END) # deletes all content fron entry widget
 
 def button_subtract(): # function button_subtract with no argument
@@ -28,7 +28,7 @@ def button_subtract(): # function button_subtract with no argument
     global f_num # global variable  
     global math # global variable
     math = "subtraction" # math variable is assigned to the string subtraction
-    f_num = float(first_number) # assigns integer value of first_number to f_num (global variable)
+    f_num = float(first_number) # assigns float value of first_number to f_num (global variable)
     e.delete(0, END) # deletes all content fron entry widget
 
 def button_multiply(): # function button_multiply with no argument
@@ -36,7 +36,7 @@ def button_multiply(): # function button_multiply with no argument
     global f_num # global variable  
     global math # global variable  
     math = "multiplication" # math variable is assigned to the string multiplication
-    f_num = float(first_number) # assigns integer value of first_number to f_num (global variable)
+    f_num = float(first_number) # assigns float value of first_number to f_num (global variable)
     e.delete(0, END) # deletes all content fron entry widget
 
 def button_divide(): # function button_multiply with no argument
@@ -44,7 +44,7 @@ def button_divide(): # function button_multiply with no argument
     global f_num # global variable  
     global math # global variable  
     math = "division" # math variable is assigned to the string multiplication
-    f_num = float(first_number) # assigns integer value of first_number to f_num (global variable)
+    f_num = float(first_number) # assigns float value of first_number to f_num (global variable)
     e.delete(0, END) # deletes all content fron entry widget
 
 def button_equal(): # function button_equal with no argument
