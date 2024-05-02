@@ -1,1 +1,1 @@
-Basic Calculator application created using Python and Tkinter.
+Basic Calculator application created using Python & Tkinter.
