@@ -15,7 +15,7 @@ def button_click(number): # function button_click with argument number
 def button_clear(): # function button_clear with no argument
     e.delete(0, END) # deletes all content fron entry widget
 
-def button_add(): # function button_add with no argument
+def button_add(): # function button_add with no argument asd
     first_number = e.get() # retrieves current value from entry widget - stores in first_number
     global f_num # global variable
     global math # global variables
