@@ -2,9 +2,9 @@ from tkinter import *
 
 root = Tk() # creates main window of an application
 root.title("Calculator") # sets title of main window
-root.configure(bg="#4a503d") # sets background colour for main window
+root.configure(bg="#808080") # sets background colour for main window
 
-e = Entry(root, width=16, borderwidth=2, bg="#8e9775", fg="white", font=("Helvetica", 22, "bold")) # defines characteristics of widget e - characteristics inside the window
+e = Entry(root, width=16, borderwidth=2, bg="#808080", fg="white", font=("Helvetica", 22, "bold")) # defines characteristics of widget e - characteristics inside the window
 e.grid(row=0, column=0, columnspan=3, padx=5, pady=5, ipadx=10, ipady=13) # places widget inside the main window with padding
 
 def button_click(number): # function button_click with argument number
