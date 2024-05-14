@@ -8,8 +8,8 @@ Developed a basic calculator application using Python that includes basic mathem
 - Employed a graphical user interface (GUI) library for developing the calculator visuals
 
 ## Commands
-download tkinter package: `pip install tk`
-run with main.py
+- download tkinter package: `pip install tk`
+- run with main.py
 
 ## Screenshots
 
